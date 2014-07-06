@@ -1,0 +1,537 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D39498A2F9978B4DB31F1E118D92AD4B/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D39498A2F9978B4DB31F1E118D92AD4B/Shortcut/@EntryValue">xfAbsoluteLayout</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D39498A2F9978B4DB31F1E118D92AD4B/Text/@EntryValue">var $name$ = new AbsoluteLayout();&#xD;
+&#xD;
+// Add the items with their locations&#xD;
+$name$.Children.Add($control$, new Point(20, 20));&#xD;
+&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D39498A2F9978B4DB31F1E118D92AD4B/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D39498A2F9978B4DB31F1E118D92AD4B/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D39498A2F9978B4DB31F1E118D92AD4B/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D39498A2F9978B4DB31F1E118D92AD4B/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D39498A2F9978B4DB31F1E118D92AD4B/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D39498A2F9978B4DB31F1E118D92AD4B/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D39498A2F9978B4DB31F1E118D92AD4B/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D39498A2F9978B4DB31F1E118D92AD4B/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D39498A2F9978B4DB31F1E118D92AD4B/Field/=control/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D39498A2F9978B4DB31F1E118D92AD4B/Field/=control/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D39498A2F9978B4DB31F1E118D92AD4B/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D39498A2F9978B4DB31F1E118D92AD4B/Field/=name/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6AFA842D658AE147A94A3B905A30507C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6AFA842D658AE147A94A3B905A30507C/Shortcut/@EntryValue">xfBox</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6AFA842D658AE147A94A3B905A30507C/Text/@EntryValue">var $name$ = new BoxView() &#xD;
+{&#xD;
+	WidthRequest = $width$, &#xD;
+	HeightRequest = $height$, &#xD;
+	BackgroundColor = Color.Silver&#xD;
+};$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6AFA842D658AE147A94A3B905A30507C/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6AFA842D658AE147A94A3B905A30507C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6AFA842D658AE147A94A3B905A30507C/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6AFA842D658AE147A94A3B905A30507C/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6AFA842D658AE147A94A3B905A30507C/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6AFA842D658AE147A94A3B905A30507C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6AFA842D658AE147A94A3B905A30507C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6AFA842D658AE147A94A3B905A30507C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6AFA842D658AE147A94A3B905A30507C/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6AFA842D658AE147A94A3B905A30507C/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6AFA842D658AE147A94A3B905A30507C/Field/=width/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6AFA842D658AE147A94A3B905A30507C/Field/=width/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6AFA842D658AE147A94A3B905A30507C/Field/=height/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6AFA842D658AE147A94A3B905A30507C/Field/=height/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=326DF7B3D9DA9944BC255B5BDD42163E/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=326DF7B3D9DA9944BC255B5BDD42163E/Shortcut/@EntryValue">xfButton</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=326DF7B3D9DA9944BC255B5BDD42163E/Text/@EntryValue">var $name$ = new Button() {&#xD;
+	Text = "$END$"&#xD;
+};&#xD;
+$name$.Clicked += (s, e) =&gt; {&#xD;
+&#xD;
+};</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=326DF7B3D9DA9944BC255B5BDD42163E/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=326DF7B3D9DA9944BC255B5BDD42163E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=326DF7B3D9DA9944BC255B5BDD42163E/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=326DF7B3D9DA9944BC255B5BDD42163E/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=326DF7B3D9DA9944BC255B5BDD42163E/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=326DF7B3D9DA9944BC255B5BDD42163E/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=326DF7B3D9DA9944BC255B5BDD42163E/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=326DF7B3D9DA9944BC255B5BDD42163E/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=326DF7B3D9DA9944BC255B5BDD42163E/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=326DF7B3D9DA9944BC255B5BDD42163E/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A5AE1226380C4F8BB897744A7C764B/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A5AE1226380C4F8BB897744A7C764B/Shortcut/@EntryValue">xfCarouselPage</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A5AE1226380C4F8BB897744A7C764B/Text/@EntryValue">var $name$ = new CarouselPage()&#xD;
+{&#xD;
+    Children = {&#xD;
+        new ContentPage(),&#xD;
+        new ContentPage()&#xD;
+    }&#xD;
+};</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A5AE1226380C4F8BB897744A7C764B/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A5AE1226380C4F8BB897744A7C764B/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A5AE1226380C4F8BB897744A7C764B/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A5AE1226380C4F8BB897744A7C764B/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A5AE1226380C4F8BB897744A7C764B/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A5AE1226380C4F8BB897744A7C764B/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A5AE1226380C4F8BB897744A7C764B/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A5AE1226380C4F8BB897744A7C764B/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A5AE1226380C4F8BB897744A7C764B/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23A5AE1226380C4F8BB897744A7C764B/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F070E762F77AB3478E6F06697BDD5A05/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F070E762F77AB3478E6F06697BDD5A05/Shortcut/@EntryValue">xfContentPage</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F070E762F77AB3478E6F06697BDD5A05/Text/@EntryValue">public class $name$Page : ContentPage&#xD;
+{&#xD;
+    public $name$Page()&#xD;
+    {&#xD;
+        Content = null;&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F070E762F77AB3478E6F06697BDD5A05/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F070E762F77AB3478E6F06697BDD5A05/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F070E762F77AB3478E6F06697BDD5A05/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F070E762F77AB3478E6F06697BDD5A05/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F070E762F77AB3478E6F06697BDD5A05/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F070E762F77AB3478E6F06697BDD5A05/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F070E762F77AB3478E6F06697BDD5A05/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F070E762F77AB3478E6F06697BDD5A05/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F070E762F77AB3478E6F06697BDD5A05/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6EDEEB2A882FF4C8A6EF72BDF4D8748/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6EDEEB2A882FF4C8A6EF72BDF4D8748/Shortcut/@EntryValue">xfCustomCell</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6EDEEB2A882FF4C8A6EF72BDF4D8748/Text/@EntryValue">public class $name$Cell : ViewCell&#xD;
+{&#xD;
+    public $name$Cell()&#xD;
+    {&#xD;
+		// Create the custom controls&#xD;
+        var $labelName$ = new Label()&#xD;
+        {&#xD;
+            Text = "$END$"&#xD;
+        };&#xD;
+&#xD;
+        var layout = new StackLayout()&#xD;
+        {&#xD;
+            Padding = new Thickness(20, 0, 0, 0),&#xD;
+            Orientation = StackOrientation.Horizontal,&#xD;
+            HorizontalOptions = LayoutOptions.StartAndExpand,&#xD;
+            Children = { $labelName$ }&#xD;
+        };&#xD;
+        View = layout;&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6EDEEB2A882FF4C8A6EF72BDF4D8748/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6EDEEB2A882FF4C8A6EF72BDF4D8748/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6EDEEB2A882FF4C8A6EF72BDF4D8748/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6EDEEB2A882FF4C8A6EF72BDF4D8748/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6EDEEB2A882FF4C8A6EF72BDF4D8748/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6EDEEB2A882FF4C8A6EF72BDF4D8748/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6EDEEB2A882FF4C8A6EF72BDF4D8748/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6EDEEB2A882FF4C8A6EF72BDF4D8748/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6EDEEB2A882FF4C8A6EF72BDF4D8748/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6EDEEB2A882FF4C8A6EF72BDF4D8748/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6EDEEB2A882FF4C8A6EF72BDF4D8748/Field/=labelName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A6EDEEB2A882FF4C8A6EF72BDF4D8748/Field/=labelName/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4AE219D2A2476A4FB1B02C0A83A4EDED/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4AE219D2A2476A4FB1B02C0A83A4EDED/Shortcut/@EntryValue">xfDatePicker</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4AE219D2A2476A4FB1B02C0A83A4EDED/Text/@EntryValue">var $name$ = new DatePicker() { $END$ };</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4AE219D2A2476A4FB1B02C0A83A4EDED/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4AE219D2A2476A4FB1B02C0A83A4EDED/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4AE219D2A2476A4FB1B02C0A83A4EDED/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4AE219D2A2476A4FB1B02C0A83A4EDED/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4AE219D2A2476A4FB1B02C0A83A4EDED/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4AE219D2A2476A4FB1B02C0A83A4EDED/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4AE219D2A2476A4FB1B02C0A83A4EDED/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4AE219D2A2476A4FB1B02C0A83A4EDED/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4AE219D2A2476A4FB1B02C0A83A4EDED/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4AE219D2A2476A4FB1B02C0A83A4EDED/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=852A848850E77A4BAD84E5E19DBDD529/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=852A848850E77A4BAD84E5E19DBDD529/Shortcut/@EntryValue">xfEntry</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=852A848850E77A4BAD84E5E19DBDD529/Text/@EntryValue">var $name$ = new Entry() { &#xD;
+	Placeholder = "", &#xD;
+	Text = "", &#xD;
+	Keyboard = Keyboard.Default &#xD;
+};</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=852A848850E77A4BAD84E5E19DBDD529/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=852A848850E77A4BAD84E5E19DBDD529/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=852A848850E77A4BAD84E5E19DBDD529/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=852A848850E77A4BAD84E5E19DBDD529/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=852A848850E77A4BAD84E5E19DBDD529/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=852A848850E77A4BAD84E5E19DBDD529/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=852A848850E77A4BAD84E5E19DBDD529/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=852A848850E77A4BAD84E5E19DBDD529/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=852A848850E77A4BAD84E5E19DBDD529/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=22F4F6AEB8E6DD429F866E54E4622B37/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=22F4F6AEB8E6DD429F866E54E4622B37/Shortcut/@EntryValue">xfImage</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=22F4F6AEB8E6DD429F866E54E4622B37/Text/@EntryValue">var $name$ = new Image() {&#xD;
+	Source = FileImageSource.FromFile ("$END$")&#xD;
+};</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=22F4F6AEB8E6DD429F866E54E4622B37/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=22F4F6AEB8E6DD429F866E54E4622B37/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=22F4F6AEB8E6DD429F866E54E4622B37/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=22F4F6AEB8E6DD429F866E54E4622B37/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=22F4F6AEB8E6DD429F866E54E4622B37/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=22F4F6AEB8E6DD429F866E54E4622B37/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=22F4F6AEB8E6DD429F866E54E4622B37/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=22F4F6AEB8E6DD429F866E54E4622B37/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=22F4F6AEB8E6DD429F866E54E4622B37/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=22F4F6AEB8E6DD429F866E54E4622B37/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F71F7925B2F4A548910F5ED497DF3772/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F71F7925B2F4A548910F5ED497DF3772/Shortcut/@EntryValue">xfLabel</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F71F7925B2F4A548910F5ED497DF3772/Description/@EntryValue">Xamarin.Forms Label</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F71F7925B2F4A548910F5ED497DF3772/Text/@EntryValue">var $name$ = new Label() {&#xD;
+	Text = "$END$",&#xD;
+	Font = Font.SystemFontOfSize(20),&#xD;
+};</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F71F7925B2F4A548910F5ED497DF3772/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F71F7925B2F4A548910F5ED497DF3772/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F71F7925B2F4A548910F5ED497DF3772/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F71F7925B2F4A548910F5ED497DF3772/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F71F7925B2F4A548910F5ED497DF3772/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F71F7925B2F4A548910F5ED497DF3772/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F71F7925B2F4A548910F5ED497DF3772/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F71F7925B2F4A548910F5ED497DF3772/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F71F7925B2F4A548910F5ED497DF3772/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F71F7925B2F4A548910F5ED497DF3772/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=476928DA72606A40B4AD919C3D986CEB/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=476928DA72606A40B4AD919C3D986CEB/Shortcut/@EntryValue">xfLabelWithEntry</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=476928DA72606A40B4AD919C3D986CEB/Text/@EntryValue">var $name$ = new Label() {&#xD;
+	Text = "$END$",&#xD;
+	Font = Font.SystemFontOfSize(20),&#xD;
+};&#xD;
+var $name$Entry = new Entry() { &#xD;
+	Placeholder = "", &#xD;
+	Text = "", &#xD;
+	Keyboard = Keyboard.Default &#xD;
+};</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=476928DA72606A40B4AD919C3D986CEB/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=476928DA72606A40B4AD919C3D986CEB/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=476928DA72606A40B4AD919C3D986CEB/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=476928DA72606A40B4AD919C3D986CEB/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=476928DA72606A40B4AD919C3D986CEB/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=476928DA72606A40B4AD919C3D986CEB/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=476928DA72606A40B4AD919C3D986CEB/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=476928DA72606A40B4AD919C3D986CEB/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=476928DA72606A40B4AD919C3D986CEB/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D0A3533DD15464B874972599665AA18/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D0A3533DD15464B874972599665AA18/Shortcut/@EntryValue">xfListViewPageBasic</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D0A3533DD15464B874972599665AA18/Text/@EntryValue">public class $name$Page : ContentPage&#xD;
+{&#xD;
+    public $name$Page()&#xD;
+    {&#xD;
+        var listView = new ListView&#xD;
+        {&#xD;
+            RowHeight = 40,&#xD;
+            ItemsSource = new String[] { }&#xD;
+        };&#xD;
+		listView.ItemSelected += (s, e) =&gt; {&#xD;
+			var item = e.SelectedItem;&#xD;
+			// Deal with the item&#xD;
+		};&#xD;
+        Content = listView;&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D0A3533DD15464B874972599665AA18/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D0A3533DD15464B874972599665AA18/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D0A3533DD15464B874972599665AA18/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D0A3533DD15464B874972599665AA18/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D0A3533DD15464B874972599665AA18/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D0A3533DD15464B874972599665AA18/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D0A3533DD15464B874972599665AA18/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D0A3533DD15464B874972599665AA18/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D0A3533DD15464B874972599665AA18/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D0A3533DD15464B874972599665AA18/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EE9B82E89A81A4459A6293A5F8F76AB6/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EE9B82E89A81A4459A6293A5F8F76AB6/Shortcut/@EntryValue">xfListViewWithTextCell</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EE9B82E89A81A4459A6293A5F8F76AB6/Text/@EntryValue">public class $name$Page : ContentPage&#xD;
+{&#xD;
+    public $name$Page()&#xD;
+    {&#xD;
+        var listView = new ListView&#xD;
+        {&#xD;
+            RowHeight = 40,&#xD;
+            ItemsSource = new String[] { },&#xD;
+			ItemTemplate = new DataTemplate(typeof (TextCell))&#xD;
+            {&#xD;
+                Bindings =&#xD;
+                {&#xD;
+                    {TextCell.TextProperty, new Binding(".")},&#xD;
+                    {TextCell.DetailProperty, new Binding(".")}&#xD;
+                }&#xD;
+            }&#xD;
+		};&#xD;
+		listView.ItemSelected += (s, e) =&gt; {&#xD;
+			var item = e.SelectedItem;&#xD;
+			// Deal with the item&#xD;
+		};&#xD;
+&#xD;
+        Content = listView;&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EE9B82E89A81A4459A6293A5F8F76AB6/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EE9B82E89A81A4459A6293A5F8F76AB6/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EE9B82E89A81A4459A6293A5F8F76AB6/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EE9B82E89A81A4459A6293A5F8F76AB6/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EE9B82E89A81A4459A6293A5F8F76AB6/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EE9B82E89A81A4459A6293A5F8F76AB6/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EE9B82E89A81A4459A6293A5F8F76AB6/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EE9B82E89A81A4459A6293A5F8F76AB6/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EE9B82E89A81A4459A6293A5F8F76AB6/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EE9B82E89A81A4459A6293A5F8F76AB6/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EEE2C903069BB74CB5D9C14247D9AAB1/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EEE2C903069BB74CB5D9C14247D9AAB1/Shortcut/@EntryValue">xfMapPage</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EEE2C903069BB74CB5D9C14247D9AAB1/Text/@EntryValue">public class $name$ : ContentPage&#xD;
+{&#xD;
+	public $name$()&#xD;
+	{&#xD;
+		Title = "$title$";&#xD;
+&#xD;
+		var map = new Map(new MapSpan(new Position(30.26535, ‐97.738613),&#xD;
+			0.05, 0.05))&#xD;
+		{&#xD;
+			MapType = MapType.Street,&#xD;
+			HeightRequest = 508&#xD;
+		};&#xD;
+		&#xD;
+		Pin pin;&#xD;
+		&#xD;
+		map.Pins.Add(pin = new Pin() {&#xD;
+			Label = "$pintitle$",&#xD;
+			Position = new Position(30.26535, ­‐97.738613),&#xD;
+			Type = PinType.Place&#xD;
+		});&#xD;
+&#xD;
+		Content = new StackLayout() {&#xD;
+			VerticalOptions = LayoutOptions.StartAndExpand,&#xD;
+			Children = { map }&#xD;
+		};&#xD;
+	}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EEE2C903069BB74CB5D9C14247D9AAB1/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EEE2C903069BB74CB5D9C14247D9AAB1/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EEE2C903069BB74CB5D9C14247D9AAB1/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EEE2C903069BB74CB5D9C14247D9AAB1/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EEE2C903069BB74CB5D9C14247D9AAB1/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EEE2C903069BB74CB5D9C14247D9AAB1/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EEE2C903069BB74CB5D9C14247D9AAB1/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EEE2C903069BB74CB5D9C14247D9AAB1/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EEE2C903069BB74CB5D9C14247D9AAB1/Field/=title/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EEE2C903069BB74CB5D9C14247D9AAB1/Field/=title/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EEE2C903069BB74CB5D9C14247D9AAB1/Field/=pintitle/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EEE2C903069BB74CB5D9C14247D9AAB1/Field/=pintitle/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EEE2C903069BB74CB5D9C14247D9AAB1/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EEE2C903069BB74CB5D9C14247D9AAB1/Field/=name/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FDD11DAEAA3F84DBBCB1886EF0FB11F/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FDD11DAEAA3F84DBBCB1886EF0FB11F/Shortcut/@EntryValue">xfMapsInitAndroid</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FDD11DAEAA3F84DBBCB1886EF0FB11F/Text/@EntryValue">Xamarin.FormsMaps.Android.Xamarin.FormsMaps.Init(this, bundle);</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FDD11DAEAA3F84DBBCB1886EF0FB11F/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FDD11DAEAA3F84DBBCB1886EF0FB11F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FDD11DAEAA3F84DBBCB1886EF0FB11F/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FDD11DAEAA3F84DBBCB1886EF0FB11F/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FDD11DAEAA3F84DBBCB1886EF0FB11F/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FDD11DAEAA3F84DBBCB1886EF0FB11F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FDD11DAEAA3F84DBBCB1886EF0FB11F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3FDD11DAEAA3F84DBBCB1886EF0FB11F/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=036B89E03219BB42986CDA743991C5D4/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=036B89E03219BB42986CDA743991C5D4/Shortcut/@EntryValue">xfMapsInitiOS</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=036B89E03219BB42986CDA743991C5D4/Text/@EntryValue">Xamarin.FormsMaps.iOS.Xamarin.FormsMaps.Init();</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=036B89E03219BB42986CDA743991C5D4/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=036B89E03219BB42986CDA743991C5D4/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=036B89E03219BB42986CDA743991C5D4/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=036B89E03219BB42986CDA743991C5D4/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=036B89E03219BB42986CDA743991C5D4/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=036B89E03219BB42986CDA743991C5D4/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=036B89E03219BB42986CDA743991C5D4/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=036B89E03219BB42986CDA743991C5D4/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BB8A714A42F71E47BEB26DC0DDFC2F42/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BB8A714A42F71E47BEB26DC0DDFC2F42/Shortcut/@EntryValue">xfMasterDetail</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BB8A714A42F71E47BEB26DC0DDFC2F42/Text/@EntryValue">var $name$ = new MasterDetailPage()&#xD;
+{&#xD;
+    Master = new $masterpage$(), &#xD;
+    Detail = new $detailpage$()&#xD;
+};</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BB8A714A42F71E47BEB26DC0DDFC2F42/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BB8A714A42F71E47BEB26DC0DDFC2F42/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BB8A714A42F71E47BEB26DC0DDFC2F42/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BB8A714A42F71E47BEB26DC0DDFC2F42/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BB8A714A42F71E47BEB26DC0DDFC2F42/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BB8A714A42F71E47BEB26DC0DDFC2F42/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BB8A714A42F71E47BEB26DC0DDFC2F42/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BB8A714A42F71E47BEB26DC0DDFC2F42/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BB8A714A42F71E47BEB26DC0DDFC2F42/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BB8A714A42F71E47BEB26DC0DDFC2F42/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BB8A714A42F71E47BEB26DC0DDFC2F42/Field/=masterpage/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BB8A714A42F71E47BEB26DC0DDFC2F42/Field/=masterpage/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BB8A714A42F71E47BEB26DC0DDFC2F42/Field/=detailpage/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BB8A714A42F71E47BEB26DC0DDFC2F42/Field/=detailpage/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5096EFABABF9E94F88BB4CCE7BD419E8/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5096EFABABF9E94F88BB4CCE7BD419E8/Shortcut/@EntryValue">xfNavigationPage</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5096EFABABF9E94F88BB4CCE7BD419E8/Text/@EntryValue">var $name$ = new NavigationPage(new $rootpage$());</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5096EFABABF9E94F88BB4CCE7BD419E8/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5096EFABABF9E94F88BB4CCE7BD419E8/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5096EFABABF9E94F88BB4CCE7BD419E8/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5096EFABABF9E94F88BB4CCE7BD419E8/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5096EFABABF9E94F88BB4CCE7BD419E8/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5096EFABABF9E94F88BB4CCE7BD419E8/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5096EFABABF9E94F88BB4CCE7BD419E8/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5096EFABABF9E94F88BB4CCE7BD419E8/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5096EFABABF9E94F88BB4CCE7BD419E8/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5096EFABABF9E94F88BB4CCE7BD419E8/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5096EFABABF9E94F88BB4CCE7BD419E8/Field/=rootpage/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5096EFABABF9E94F88BB4CCE7BD419E8/Field/=rootpage/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=347FB312A720014D8E9414270AB93B2C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=347FB312A720014D8E9414270AB93B2C/Shortcut/@EntryValue">xfSearchBar</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=347FB312A720014D8E9414270AB93B2C/Text/@EntryValue">var $name$ = new SearchBar() { Placeholder = "Search for..." };&#xD;
+$name$.SearchButtonPressed += (sender, args) =&gt;&#xD;
+{&#xD;
+	$END$&#xD;
+};</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=347FB312A720014D8E9414270AB93B2C/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=347FB312A720014D8E9414270AB93B2C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=347FB312A720014D8E9414270AB93B2C/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=347FB312A720014D8E9414270AB93B2C/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=347FB312A720014D8E9414270AB93B2C/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=347FB312A720014D8E9414270AB93B2C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=347FB312A720014D8E9414270AB93B2C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=347FB312A720014D8E9414270AB93B2C/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=347FB312A720014D8E9414270AB93B2C/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=347FB312A720014D8E9414270AB93B2C/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47600BCCEA32E146A2F1E16128E3F6CC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47600BCCEA32E146A2F1E16128E3F6CC/Shortcut/@EntryValue">xfStackedContentHorizontal</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47600BCCEA32E146A2F1E16128E3F6CC/Text/@EntryValue">var $name$ = new StackLayout()&#xD;
+{&#xD;
+    VerticalOptions = LayoutOptions.End,&#xD;
+	Orientation = StackOrientation.Horizontal,&#xD;
+	HorizontalOptions = LayoutOptions.Start,&#xD;
+    Padding = new Thickness(20),&#xD;
+    Children = {&#xD;
+		// Add the controls underneath here&#xD;
+        $END$        &#xD;
+    }&#xD;
+};</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47600BCCEA32E146A2F1E16128E3F6CC/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47600BCCEA32E146A2F1E16128E3F6CC/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47600BCCEA32E146A2F1E16128E3F6CC/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47600BCCEA32E146A2F1E16128E3F6CC/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47600BCCEA32E146A2F1E16128E3F6CC/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47600BCCEA32E146A2F1E16128E3F6CC/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47600BCCEA32E146A2F1E16128E3F6CC/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47600BCCEA32E146A2F1E16128E3F6CC/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47600BCCEA32E146A2F1E16128E3F6CC/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=47600BCCEA32E146A2F1E16128E3F6CC/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A238B22AF1EDEA4695FC490609400651/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A238B22AF1EDEA4695FC490609400651/Shortcut/@EntryValue">xfStackedContentPage</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A238B22AF1EDEA4695FC490609400651/Text/@EntryValue">public class $name$Page : ContentPage&#xD;
+{&#xD;
+    public $name$Page()&#xD;
+    {&#xD;
+		// Create the controls to host in the Stack Layout here&#xD;
+&#xD;
+        Content = new ScrollView() {&#xD;
+			Content = new StackLayout()&#xD;
+			{&#xD;
+				VerticalOptions = LayoutOptions.StartAndExpand,&#xD;
+				Padding = new Thickness(20),&#xD;
+				Children = {&#xD;
+					// Add the controls underneath here&#xD;
+                &#xD;
+				}&#xD;
+			}&#xD;
+		};&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A238B22AF1EDEA4695FC490609400651/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A238B22AF1EDEA4695FC490609400651/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A238B22AF1EDEA4695FC490609400651/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A238B22AF1EDEA4695FC490609400651/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A238B22AF1EDEA4695FC490609400651/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A238B22AF1EDEA4695FC490609400651/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A238B22AF1EDEA4695FC490609400651/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A238B22AF1EDEA4695FC490609400651/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A238B22AF1EDEA4695FC490609400651/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A238B22AF1EDEA4695FC490609400651/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E12718B5E63D8B438B89AE69543CF2F3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E12718B5E63D8B438B89AE69543CF2F3/Shortcut/@EntryValue">xfSwitch</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E12718B5E63D8B438B89AE69543CF2F3/Text/@EntryValue">var $name$ = new Switch();</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E12718B5E63D8B438B89AE69543CF2F3/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E12718B5E63D8B438B89AE69543CF2F3/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E12718B5E63D8B438B89AE69543CF2F3/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E12718B5E63D8B438B89AE69543CF2F3/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E12718B5E63D8B438B89AE69543CF2F3/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E12718B5E63D8B438B89AE69543CF2F3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E12718B5E63D8B438B89AE69543CF2F3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E12718B5E63D8B438B89AE69543CF2F3/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E12718B5E63D8B438B89AE69543CF2F3/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E12718B5E63D8B438B89AE69543CF2F3/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F841FB5847BFC34C828C49DBE1E41280/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F841FB5847BFC34C828C49DBE1E41280/Shortcut/@EntryValue">xfTabbedPage</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F841FB5847BFC34C828C49DBE1E41280/Text/@EntryValue">var $name$ = new TabbedPage();&#xD;
+$name$.Children.Add(new ContentPage()&#xD;
+{&#xD;
+    Title = "Page 1"&#xD;
+});&#xD;
+$name$.Children.Add(new ContentPage()&#xD;
+{&#xD;
+    Title = "Page 2"&#xD;
+});</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F841FB5847BFC34C828C49DBE1E41280/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F841FB5847BFC34C828C49DBE1E41280/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F841FB5847BFC34C828C49DBE1E41280/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F841FB5847BFC34C828C49DBE1E41280/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F841FB5847BFC34C828C49DBE1E41280/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F841FB5847BFC34C828C49DBE1E41280/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F841FB5847BFC34C828C49DBE1E41280/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F841FB5847BFC34C828C49DBE1E41280/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F841FB5847BFC34C828C49DBE1E41280/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=77116D29B9BAA14DA051D26A4A209A0D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=77116D29B9BAA14DA051D26A4A209A0D/Shortcut/@EntryValue">xfTapRecogniser</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=77116D29B9BAA14DA051D26A4A209A0D/Text/@EntryValue">var $name$ = new TapGestureRecognizer(view =&gt; {&#xD;
+	// What to do when the item is tapped&#xD;
+	$END$&#xD;
+}) { NumberOfTapsRequired = 1 };&#xD;
+$control$.GestureRecognizers.Add($name$);</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=77116D29B9BAA14DA051D26A4A209A0D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=77116D29B9BAA14DA051D26A4A209A0D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=77116D29B9BAA14DA051D26A4A209A0D/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=77116D29B9BAA14DA051D26A4A209A0D/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=77116D29B9BAA14DA051D26A4A209A0D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=77116D29B9BAA14DA051D26A4A209A0D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=77116D29B9BAA14DA051D26A4A209A0D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=77116D29B9BAA14DA051D26A4A209A0D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=77116D29B9BAA14DA051D26A4A209A0D/Field/=control/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=77116D29B9BAA14DA051D26A4A209A0D/Field/=control/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=77116D29B9BAA14DA051D26A4A209A0D/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=77116D29B9BAA14DA051D26A4A209A0D/Field/=name/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4BF72FF2BE67D242A008E7FAFE9B5315/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4BF72FF2BE67D242A008E7FAFE9B5315/Shortcut/@EntryValue">xfTimePicker</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4BF72FF2BE67D242A008E7FAFE9B5315/Text/@EntryValue">var $name$ = new TimePicker() { $END$ };</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4BF72FF2BE67D242A008E7FAFE9B5315/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4BF72FF2BE67D242A008E7FAFE9B5315/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4BF72FF2BE67D242A008E7FAFE9B5315/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4BF72FF2BE67D242A008E7FAFE9B5315/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4BF72FF2BE67D242A008E7FAFE9B5315/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4BF72FF2BE67D242A008E7FAFE9B5315/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4BF72FF2BE67D242A008E7FAFE9B5315/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4BF72FF2BE67D242A008E7FAFE9B5315/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4BF72FF2BE67D242A008E7FAFE9B5315/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4BF72FF2BE67D242A008E7FAFE9B5315/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=046061DDDADF8B48836C98A3E4DA2CA5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=046061DDDADF8B48836C98A3E4DA2CA5/Shortcut/@EntryValue">xfWebView</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=046061DDDADF8B48836C98A3E4DA2CA5/Text/@EntryValue">var source = new UrlWebViewSource ();&#xD;
+source.Url = "http://$url$";&#xD;
+&#xD;
+var $name$ = new WebView {&#xD;
+	WidthRequest = 300,&#xD;
+	HeightRequest = 400&#xD;
+};&#xD;
+$name$.Source = source;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=046061DDDADF8B48836C98A3E4DA2CA5/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=046061DDDADF8B48836C98A3E4DA2CA5/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=046061DDDADF8B48836C98A3E4DA2CA5/Categories/=Xamarin_002EForms/@EntryIndexedValue">Xamarin.Forms</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=046061DDDADF8B48836C98A3E4DA2CA5/Categories/=Imported_002010_002F06_002F2014/@EntryIndexedValue">Imported 10/06/2014</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=046061DDDADF8B48836C98A3E4DA2CA5/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=046061DDDADF8B48836C98A3E4DA2CA5/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=046061DDDADF8B48836C98A3E4DA2CA5/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=046061DDDADF8B48836C98A3E4DA2CA5/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=046061DDDADF8B48836C98A3E4DA2CA5/Field/=url/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=046061DDDADF8B48836C98A3E4DA2CA5/Field/=url/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=046061DDDADF8B48836C98A3E4DA2CA5/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=046061DDDADF8B48836C98A3E4DA2CA5/Field/=name/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>
