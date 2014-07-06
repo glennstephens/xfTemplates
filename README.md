@@ -15,7 +15,13 @@ Once you have them imported type **xf** and you should see the list of templates
 
 ## A few favourites ##
 
-A few of my favourites include examples:
+A few of my favourites include:
+
+**xfContentPage** creates a ContentPage subclass
+
+**xfStackedContentPage** creates a ContentPage subclass which contains a scrollable StackLayout
+
+**xfListViewPageBasic** creates a ListView in a ContentPage that you can manipulate
 
 **xfLabel** creates a Label control
 
@@ -24,12 +30,6 @@ A few of my favourites include examples:
 **xfLabelEntry** creates a Label and an Entry control in one batch
 
 **xfWebView** creates a WebView, an embedded browser  control
-
-**xfContentPage** creates a ContentPage subclass
-
-**xfStackedContentPage** creates a ContentPage subclass which contains a scrollable StackLayout
-
-**xfListViewPageBasic** creates a ListView in a ContentPage that you can manipulate
 
 ### Notes 
 
