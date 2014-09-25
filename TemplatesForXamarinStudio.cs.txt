@@ -1,0 +1,315 @@
+The templates below are useful when creating code based applications with Xamarin.Forms. You will be able to quickly create and prototype
+a Xamarin.Forms application in a very short amount of time. To add the templates, you will need to open Preferences from Xamarin Studio's main
+menu, select the "Text Editor" section, followed by the Code Templates. You will need to add each template individually. I have added my 
+suggested name for each comment so that I can hit xf and then the templates start to appear
+
+
+// ** TEMPLATE: xfAbsoluteLayout ** //
+
+var $name$ = new AbsoluteLayout();
+
+// Add the items with their locations
+$name$.Children.Add($control$, new Point(20, 20));
+
+
+
+// ** TEMPLATE: xfAlert ** //
+var $name$ = await page.DisplayAlert("$title$", "$message$", "OK", "Cancel");
+
+
+// ** TEMPLATE: xfBox ** //
+var $name$ = new BoxView() 
+{
+	WidthRequest = $width$, 
+	HeightRequest = $height$, 
+	BackgroundColor = Color.Silver
+};$END$
+
+
+// ** TEMPLATE: xfButton ** //
+var $name$ = new Button() {
+	Text = "$END$"
+};
+$name$.Clicked += (s, e) => {
+
+};
+
+
+// ** TEMPLATE: xfCarousel ** //
+var $name$ = new CarouselPage()
+{
+    Children = {
+        new ContentPage(),
+        new ContentPage()
+    }
+};
+
+
+// ** TEMPLATE: xfControlProperty ** //
+public static readonly BindableProperty $PropertyName$Property = BindableProperty.Create<ImageInfoBlock, $DataType$>(p => p.$PropertyName$, default($DataType$));
+
+public $DataType$ $PropertyName$ 
+{ 
+	get 
+	{ 
+		return ($DataType$)base.GetValue($PropertyName$Property); 
+	} 
+	set 
+	{ 
+		base.SetValue ($PropertyName$Property, value); 
+	}
+}
+
+
+// ** TEMPLATE: xfCustomCell ** //
+public class $name$Cell : ViewCell
+{
+    public $name$Cell()
+    {
+		// Create the custom controls
+        var $labelName$ = new Label()
+        {
+            Text = "$END$"
+        };
+
+        var layout = new StackLayout()
+        {
+            Padding = new Thickness(20, 0, 0, 0),
+            Orientation = StackOrientation.Horizontal,
+            HorizontalOptions = LayoutOptions.StartAndExpand,
+            Children = { $labelName$ }
+        };
+        View = layout;
+    }
+}
+
+// ** TEMPLATE: xfDatePicker ** //
+var $name$ = new DatePicker() { $END$ };
+
+
+// TEMPLATE: xfDependancyGet ** //
+var $service$ = DependencyService.Get<$servicename$>();
+
+
+// ** TEMPLATE: xfDependancyRegister ** //
+[assembly: Dependency(typeof($classname$))]$END$
+
+
+// ** TEMPLATE: xfDeviceOnAndroid ** //
+Device.OnPlatform(
+          Android: () => {  },
+          Default: () => {  }
+);
+
+
+// ** TEMPLATE: xfDeviceOnPlatform ** //
+Device.OnPlatform(
+          iOS: () => {  },
+          Android: () => {  },
+          WinPhone: () => {  }
+);
+
+
+// ** TEMPLATE: xfDeviceOnWinPhone ** //
+Device.OnPlatform(
+          WinPhone: () => {  },
+          Default: () => {  });
+
+// ** TEMPLATE: xfDeviceOniOS ** //
+Device.OnPlatform(
+          iOS: () => {  },
+          Default: () => {  }
+);
+
+
+// ** TEMPLATE: xfEntry ** //
+var $name$ = new Entry() { Placeholder = "$END$" };
+
+
+// ** TEMPLATE: xfImage ** //
+var $name$ = new Image() {
+	Source = FileImageSource.FromFile ("$END$")
+};
+
+
+// ** TEMPLATE: xfLabel ** //
+var $name$ = new Label() {
+	Text = "$END$"
+};
+
+
+// ** TEMPLATE: xfLabelEntry ** //
+var $name$Label = new Label()
+{
+    Text = "$name$"
+};
+var $name$Entry = new Entry() {Placeholder = "$name$"};
+
+
+// ** TEMPLATE: xfListViewContentPage ** //
+public class $name$Page : ContentPage
+{
+    public $name$Page()
+    {
+        var listView = new ListView
+        {
+            ItemsSource = new String[] { },
+			ItemTemplate = new DataTemplate(typeof (TextCell))
+            {
+                Bindings =
+                {
+                    {TextCell.TextProperty, new Binding(".")},
+                    //{TextCell.DetailProperty, new Binding(".")}
+                }
+            }
+		};
+		listView.ItemSelected += (s, e) => {
+			var item = e.SelectedItem;
+			// Deal with the item
+		};
+
+        Content = listView;
+    }
+}
+
+
+// ** TEMPLATE: xfMapPage ** //
+public class $name$ : ContentPage
+{
+	public $name$()
+	{
+		Title = "$title$";
+
+		var map = new Map(new MapSpan(new Position(30.26535, ‐97.738613),
+			0.05, 0.05))
+		{
+			MapType = MapType.Street,
+			HeightRequest = 508
+		};
+		
+		Pin pin;
+		
+		map.Pins.Add(pin = new Pin() {
+			Label = "$pintitle$",
+			Position = new Position(30.26535, ­‐97.738613),
+			Type = PinType.Place
+		});
+
+		Content = new StackLayout() {
+			VerticalOptions = LayoutOptions.StartAndExpand,
+			Children = { map }
+		};
+	}
+}
+
+
+// ** TEMPLATE: xfMapsInitAndroid ** //
+Xamarin.FormsMaps.Android.Xamarin.FormsMaps.Init(this, bundle);
+
+
+// ** TEMPLATE: xfMapsInitiOS ** //
+Xamarin.FormsMaps.iOS.Xamarin.FormsMaps.Init();
+
+
+// ** TEMPLATE: xfMasterDetailPage ** //
+var $name$ = new MasterDetailPage()
+{
+    Master = new $masterpage$(), 
+    Detail = new $detailpage$()
+};
+
+
+// ** TEMPLATE: xfMessagingCenterSend ** //
+MessagingCenter.Send(this, "$messagename$", $item$);
+
+
+// ** TEMPLATE: xfMessagingCenterSubscribe ** //
+MessagingCenter.Subscribe(this, "$messagename$"", 
+				(object sender, object item) => {
+					// Typecast the objects to what you expect
+			});
+			
+
+// ** TEMPLATE: xfNavigationPage ** //
+var $name$ = new NavigationPage(new $rootpage$());
+
+
+// ** TEMPLATE: xfSearchBar ** //
+var $name$ = new SearchBar() { Placeholder = "Search for..." };
+$name$.SearchButtonPressed += (sender, args) =>
+{
+	$END$
+};
+
+
+// ** TEMPLATE: xfStackedLayoutHorizontal ** //
+var $name$ = new StackLayout()
+{
+    VerticalOptions = LayoutOptions.End,
+	Orientation = StackOrientation.Horizontal,
+	HorizontalOptions = LayoutOptions.Start,
+    Padding = new Thickness(20),
+    Children = {
+		// Add the controls underneath here
+        $END$        
+    }
+};
+
+
+// ** TEMPLATE: xfStackedContentPage ** //
+public class $name$Page : ContentPage
+{
+    public $name$Page()
+    {
+		// Create the controls here
+
+        Content = new StackLayout()
+        {
+            VerticalOptions = LayoutOptions.StartAndExpand,
+            Padding = new Thickness(20),
+            Children = {
+				// Add the controls underneath here
+                
+            }
+        };
+    }
+}
+
+
+// ** TEMPLATE: xfSwitch ** //
+var $name$ = new Switch();
+
+
+// ** TEMPLATE: xfTapGesture ** //
+var $name$ = new TapGestureRecognizer(view => {
+	// What to do when the item is tapped
+	$END$
+}) { NumberOfTapsRequired = 1 };
+$control$.GestureRecognizers.Add($name$);
+
+
+// ** TEMPLATE: xfTimePicker ** //
+var $name$ = new TimePicker() { $END$ };
+
+
+// ** TEMPLATE: xfWebView ** //
+var $source$ = new UrlWebViewSource ();
+$source$.Url = "http://$url$";
+
+var $name$ = new WebView {
+	WidthRequest = 300,
+	HeightRequest = 400
+};
+$name$.Source = $source$;
+
+
+
+
+
+
+
+
+
+
+
+ 
